@@ -1,0 +1,47 @@
+.header {
+  background-color: var(--primary-black);
+  color: var(--primary-white);
+  padding: 20px 0;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+.header__list {
+  display: flex;
+  gap: 40px;
+  font-weight: 500;
+}
+.header__list-link {
+  font-size: 20px;
+}
+.header-button {
+  background: transparent;
+  border: var(--dark-border);
+  color: var(--primary-white);
+  max-height: 60px;
+}
+.header__buttons-list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header__actions-list {
+  display: flex;
+  gap: 10px;
+}
+.header__call-button {
+  padding: 18px 40px 18px 40px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.button-icon {
+  padding: 16px 13px 16px 13px;
+}
+
+.button-icon:nth-child(3) {
+  padding: 13px 15px 15px 15px;
+}

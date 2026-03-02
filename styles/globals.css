@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+
+
+:root {
+  --primary-black: #111111;
+  --accent-black: #2B2B2B;
+  --primary-white: #fff;
+  --accent-white: #EDECEA;
+  --dark-border: 1px solid #474747;
+  --light-border: 1px solid #BEBDBC;
+
+  --heading-family: "Bebas Neue Cyrillic";
+  --main-family: "Gilroy";
+
+  --radius-xs: 10px;
+  --radius-lg: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container-2xl {
+  max-width: 1840px;
+  margin: 0 auto;
+}
+
+.button {
+  border-radius: var(--radius-xs);
+}
+
+.heading {
+  font-size: 64px;
+  font-weight: 400;
+  font-family: var(--heading-family);
+}
+
+.main__container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
