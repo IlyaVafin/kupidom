@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="styles/calculate-mortgage.css">
   <link rel="stylesheet" href="styles/partners.css">
   <link rel="stylesheet" href="styles/faq.css">
+  <link rel="stylesheet" href="styles/map.css">
   <title>КУПИДОМ</title>
 </head>
 
@@ -385,6 +386,34 @@
           </div>
         </section>
       </div>
+      <section class='map'>
+        <div class="map__container">
+          <form class='map__form' action="">
+            <h5 class='map__heading heading'>Остались вопросы?</h5>
+            <p class='map__form-description'>Оставьте свои контактные данные, и мы вам перезвоним</p>
+            <div class="map__field map__field_mb">
+              <label class='map__field-label ' for="map-name">Как вас зовут?</label>
+              <input placeholder='Ваше имя' class='input map__input' id='map-name' type="text" autocomplete='name'>
+            </div>
+            <div class="map__field">
+              <label class='map__field-label' for="map-phone">Номер телефон</label>
+              <input placeholder='+7 (999) 999-99-99' class='input map__input' id='map-phone' type="tel"
+                autocomplete='tel'>
+            </div>
+            <button class='button black-button map__button-submit-form'>Заказать звонок</button>
+            <p class='map__policy'>Нажимая на кнопку «Заказать звонок», я даю свое согласие на обработку персональных
+              данных и соглашаюсь
+              с условиями <a href="">политики конфиденциальности.</a></p>
+          </form>
+        </div>
+        <div class="container-2xl">
+          <iframe
+            class='map__iframe'
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1121.403099690322!2d49.20960215135625!3d55.79660304324986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415ead3bcd1f8015%3A0x74a85458fad57758!2z0JrQsNGA0LrQsNGB0L3Ri9C1INC00L7QvNCwIC0gImJ1eVhheWMiINCR0JDQmdCl0JDQo9Ch!5e0!3m2!1sru!2sru!4v1772484767614!5m2!1sru!2sru"
+            allowfullscreen="true" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>
     </div>
   </main>
   <footer>

@@ -17,6 +17,5 @@ prevButton.onclick = function () {
 nextButton.onclick = function () {
 	position -= WIDTH * COUNT
 	position = Math.max(position, -WIDTH * (listElems.length - COUNT))
-    console.log(position)
 	list.style.transform = `translateX(${position + "px"})`
 }
