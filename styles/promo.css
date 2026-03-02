@@ -1,22 +1,49 @@
+.promo {
+	overflow: hidden;
+}
 .promo__heading {
-  text-align: center;
+	text-align: center;
+	margin-bottom: 30px;
 }
 .promo__content {
-  position: relative;
+	position: relative;
+}
+.promo__carousel {
+	display: flex;
+	gap: 20px;
+	overflow: hidden;
+	width: 3000px;
+	transition: transform 0.5s ease;
 }
 .promo__carousel-button {
-  position: absolute;
-  top: 50%;
-  background-color: var(--accent-white);
-  border: none;
-  border-radius: var(--radius-xs);
-  max-width: 60px;
-  width: 100%;
-  height: 60px;
+	position: absolute;
+	top: 50%;
+	background-color: var(--accent-white);
+	border: none;
+	border-radius: var(--radius-xs);
+	max-width: 60px;
+	width: 100%;
+	height: 60px;
+}
+
+.promo__card-content {
+	background: var(--primary-white);
+	padding: 40px 30px 40px 40px;
+}
+
+.promo__card-content-description {
+	font-size: 32px;
+	font-weight: 500;
+	margin: 40px 0 20px 0;
+	max-width: 570px;
 }
 
 .promo__carousel-button_next {
-  right: 0;
-  rotate: 180deg;
+	right: 0px;
+	z-index: 9;
+	rotate: 180deg;
 }
 
+.promo__carousel-button_prev {
+	z-index: 9;
+}
