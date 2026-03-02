@@ -7,10 +7,7 @@
 	gap: 20px;
 }
 
-.catalog__card {
-	display: flex;
-	flex-direction: column;
-}
+
 
 .catalog__card-content {
 	background: var(--primary-white);
