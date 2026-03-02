@@ -39,6 +39,7 @@ li {
 	border-radius: var(--radius-xs);
 	font-size: 20px;
 	font-weight: 500;
+  border: none;
 }
 
 .heading {
@@ -54,6 +55,11 @@ li {
 
 .white-wrapper {
   background: var(--accent-white);
+}
+
+.black-button {
+  background: var(--primary-black);
+  color: var(--primary-white);
 }
 
 .card {
