@@ -1,0 +1,22 @@
+.promo__heading {
+  text-align: center;
+}
+.promo__content {
+  position: relative;
+}
+.promo__carousel-button {
+  position: absolute;
+  top: 50%;
+  background-color: var(--accent-white);
+  border: none;
+  border-radius: var(--radius-xs);
+  max-width: 60px;
+  width: 100%;
+  height: 60px;
+}
+
+.promo__carousel-button_next {
+  right: 0;
+  rotate: 180deg;
+}
+

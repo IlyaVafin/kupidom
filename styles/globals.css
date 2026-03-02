@@ -10,7 +10,7 @@
 	--accent-black: #2b2b2b;
 	--primary-white: #fff;
 	--accent-white: #edecea;
-  --gray: #BEBDBC;
+	--gray: #bebdbc;
 	--dark-border: 1px solid #474747;
 	--light-border: 1px solid var(--gray);
 
@@ -39,7 +39,7 @@ li {
 	border-radius: var(--radius-xs);
 	font-size: 20px;
 	font-weight: 500;
-  border: none;
+	border: none;
 }
 
 .heading {
@@ -54,14 +54,28 @@ li {
 }
 
 .white-wrapper {
-  background: var(--accent-white);
+	background: var(--accent-white);
 }
 
 .black-button {
-  background: var(--primary-black);
-  color: var(--primary-white);
+	background: var(--primary-black);
+	color: var(--primary-white);
 }
 
 .card {
-  border-radius: var(--radius-lg);
+	border-radius: var(--radius-lg);
+}
+
+.price {
+	font-size: 32px;
+	font-weight: 600;
+}
+
+.tag {
+	display: inline-block;
+	border-radius: var(--radius-xs);
+	font-size: 20px;
+	background: var(--accent-white);
+	font-weight: 500;
+	padding: 10px 20px 10px 20px;
 }

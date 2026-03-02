@@ -17,26 +17,12 @@
   padding: 40px 33px 41px 40px;
 }
 
-.catalog__card-size {
-  display: inline-block;
-  border-radius: var(--radius-xs);
-  font-size: 20px;
-  background: var(--accent-white);
-  font-weight: 500;
-  padding: 10px 20px 10px 20px;
-}
-
 .catalog__card-title {
   font-size: 48px;
   font-family: var(--heading-family);
   font-weight: 400;
   margin: 20px 0;
   max-height: 48px;
-}
-
-.catalog__card-price {
-  font-size: 32px;
-  font-weight: 600;
 }
 
 .catalog__card-button {
