@@ -7,6 +7,7 @@
   <link rel='stylesheet' href='styles/globals.css' />
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/hero.css">
+  <link rel="stylesheet" href="styles/team.css">
   <link rel="stylesheet" href="fonts/fonts.css">
   <title>КУПИДОМ</title>
 </head>
@@ -27,15 +28,15 @@
         </ul>
       </nav>
       <div class="header__buttons-list">
-        <button class='button header__call-button header-button'>Заказать звонок</button>
+        <button class='button header__button header__button_call'>Заказать звонок</button>
         <div class="header__actions-list">
-          <button class='button header-button button-icon'>
+          <button class='button header__button button-icon'>
             <img width='33' height='29' src='./img/svg/bucket.svg' alt='корзина' />
           </button>
-          <button class='button header-button button-icon'>
+          <button class='button header__button button-icon'>
             <img src="./img/svg/car.svg" alt="грузовик">
           </button>
-          <button class='button header-button button-icon'>
+          <button class='button header__button button-icon'>
             <img src="./img/svg/user.svg" alt="пользователь">
           </button>
         </div>
@@ -52,7 +53,28 @@
     </section>
     <section class='team'>
       <div class="main__container">
-        <h2 class='heading'>команда профессионалов</h2>
+        <h2 class='team__heading heading'>команда профессионалов</h2>
+        <div class="team__content">
+          <div class="team__image">
+            <img width='860' height='640' src='img/png/team.png' alt='' />
+            <p class='team__description'>Фиксированные сроки и контроль каждого этапа строительства, гарант Вашего
+              спокойствия.</p>
+          </div>
+          <ul class="team__card-list">
+            <li class='team__card-item'>
+              <h3 class='team__card-heading'>до 30 лет</h3>
+              <p class='team__card-note'>гарантия на все дома</p>
+            </li>
+            <li class='team__card-item'>
+              <h3 class='team__card-heading'>до 30 лет</h3>
+              <p class='team__card-note'>гарантия на все дома</p>
+            </li>
+            <li class='team__card-item'>
+              <h3 class='team__card-heading'>до 30 лет</h3>
+              <p class='team__card-note'>гарантия на все дома</p>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
   </main>

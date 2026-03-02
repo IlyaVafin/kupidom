@@ -17,7 +17,7 @@
 .header__list-link {
   font-size: 20px;
 }
-.header-button {
+.header__button {
   background: transparent;
   border: var(--dark-border);
   color: var(--primary-white);
@@ -32,10 +32,8 @@
   display: flex;
   gap: 10px;
 }
-.header__call-button {
+.header__button_call {
   padding: 18px 40px 18px 40px;
-  font-size: 20px;
-  font-weight: 500;
 }
 
 .button-icon {
