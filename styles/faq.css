@@ -1,0 +1,71 @@
+.faq {
+  margin-bottom: 80px;
+}
+
+.faq__heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.faq__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.faq__list-item {
+	background-color: var(--primary-white);
+	display: flex;
+	justify-content: space-between;
+	padding-left: 40px;
+	padding-right: 20px;
+	height: 100px;
+	align-items: center;
+	border-radius: var(--radius-lg);
+	transition:
+		background 0.3s ease,
+		color 0.3s ease;
+}
+
+.faq__block.active .faq__list-item {
+	background: var(--primary-black);
+	color: var(--primary-white);
+}
+
+.faq__question {
+	font-size: 32px;
+	font-weight: 600;
+}
+.faq__answer {
+	opacity: 0;
+  height: 0;
+  font-size: 0;
+  transition: all 0.3s ease-in-out;
+}
+.faq__block.active .faq__answer {
+	color: var(--gray);
+	background-color: var(--primary-white);
+	height: 152px;
+  font-size: 20px;
+	padding: 40px;
+	border-radius: var(--radius-lg);
+	opacity: 1;
+}
+
+.faq__toggle-button {
+	background: transparent;
+	width: 60px;
+	height: 60px;
+	border: var(--white-border);
+}
+
+.faq__block.active .faq__toggle-button {
+	border: var(--dark-border);
+	color: white;
+	transition: transform 0.3s ease;
+}
+.faq__toggle-button svg {
+	transition: transform 0.3s ease;
+	transform: rotate(0deg);
+}
+.faq__block.active .faq__toggle-button svg {
+	transform: rotate(-45deg);
+}

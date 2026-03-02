@@ -14,7 +14,7 @@
 	--gray: #bebdbc;
 	--dark-border: 1px solid #474747;
 	--light-border: 1px solid var(--gray);
-
+	--white-border: 1px solid var(--accent-white);
 	--heading-family: "Bebas Neue Cyrillic";
 	--main-family: "Gilroy";
 
