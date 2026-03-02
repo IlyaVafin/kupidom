@@ -10,8 +10,9 @@
 	--accent-black: #2b2b2b;
 	--primary-white: #fff;
 	--accent-white: #edecea;
+  --gray: #BEBDBC;
 	--dark-border: 1px solid #474747;
-	--light-border: 1px solid #bebdbc;
+	--light-border: 1px solid var(--gray);
 
 	--heading-family: "Bebas Neue Cyrillic";
 	--main-family: "Gilroy";
@@ -49,4 +50,12 @@ li {
 .main__container {
 	max-width: 1300px;
 	margin: 0 auto;
+}
+
+.white-wrapper {
+  background: var(--accent-white);
+}
+
+.card {
+  border-radius: var(--radius-lg);
 }
