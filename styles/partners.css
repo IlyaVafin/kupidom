@@ -1,0 +1,21 @@
+.partners {
+  margin-bottom: 80px;
+}
+.partners__heading {
+	text-align: center;
+}
+.partners__list {
+  display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  gap: 20px;
+  margin-top: 40px;
+}
+.partners__list-item {
+	background: var(--primary-white);
+	max-width: 310px;
+	width: 100%;
+	height: 130px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
