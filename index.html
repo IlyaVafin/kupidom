@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="styles/advantages.css">
   <link rel="stylesheet" href="styles/catalog.css">
   <link rel="stylesheet" href="styles/promo.css">
+  <link rel="stylesheet" href="styles/calculate-mortgage.css">
   <title>КУПИДОМ</title>
 </head>
 
@@ -231,6 +232,55 @@
             </div>
             <button class='promo__carousel-button promo__carousel-button_next'><img width='40' height='40'
                 src="./img/svg/arrow.svg" alt="стрелка вправо"></button>
+          </div>
+        </section>
+        <section class='calculate-mortgage'>
+          <div class="calculate-mortgage__container">
+            <div class="">
+              <h2 class='calculate-mortgage__heading heading'>Рассчитать ипотеку</h2>
+              <p class='calculate-mortgage__subheading'>Оставьте свои контактные данные, наши менеджеры ответят на все
+                интересующие Вас вопросы.</p>
+              <form class='calculate-mortgage__form'>
+                <div class="calculate-mortgage__field">
+                  <label for="house-price" class="calculate-mortgage__label">
+                    Стоимость дома
+                  </label>
+                  <input id='house-price' placeholder='Стоимость дома' type="text"
+                    class="calculate-mortgage__input input">
+                </div>
+                <div class="calculate-mortgage__field">
+                  <label for="contribution" class="calculate-mortgage__label">
+                    Первоначальный взнос
+                  </label>
+                  <input placeholder='Ваш первоначальный взнос' id='contribution' type="text"
+                    class="calculate-mortgage__input input">
+                </div>
+                <div class="calculate-mortgage__field">
+                  <label for="term-credit" class="calculate-mortgage__label">Срок кредита</label>
+                  <input id='term-credit' placeholder='Ваш срок кредита' type="text"
+                    class="calculate-mortgage__input input">
+                </div>
+                <div class="calculate-mortgage__field">
+                  <label for="name" class="calculate-mortgage__label">Как вас зовут?</label>
+                  <input placeholder='Ваше имя' id='name' type="text" autocomplete='name'
+                    class="calculate-mortgage__input input">
+                </div>
+                <div class="calculate-mortgage__field calculate-mortgage__field_columns">
+                  <label for="phone" class="calculate-mortgage__label">Номер телефона</label>
+                  <input autocomplete='tel' placeholder='+7 (999) 999-99-99' id='phone' type="tel" class="calculate-mortgage__input input">
+                </div>
+                <button class='black-button button calculate-mortgage__submit-form'>Рассчитать ипотеку</button>
+              </form>
+              <p class='calculate-mortgage__policy'>Нажимая «Рассчитать ипотеку», я соглашаюсь с условиями <a
+                  href=''>политики конфиденциальности</a>.</p>
+            </div>
+            <div class="">
+              <p class='calculate-mortgage__right-heading'>Построим каркасный дом в ипотеку</p>
+              <p>С нами вы можете построить дом в ипотеку со сниженной
+                процентной ставкой благодаря льготным кредитам — ипотека с господдержкой.</p>
+              <p class='calculate-mortgage__description'>Построить дом в этом случае можно, по ставке от 3%.</p>
+              <img width='620' height='476' loading='lazy' src='./img/jpg/family.jpg' alt='' />
+            </div>
           </div>
         </section>
       </div>

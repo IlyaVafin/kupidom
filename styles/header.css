@@ -14,9 +14,7 @@
   gap: 40px;
   font-weight: 500;
 }
-.header__list-link {
-  font-size: 20px;
-}
+
 .header__button {
   background: transparent;
   border: var(--dark-border);

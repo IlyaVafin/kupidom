@@ -3,6 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Gilroy";
+	font-size: 20px;
 }
 
 :root {
@@ -37,7 +38,6 @@ li {
 
 .button {
 	border-radius: var(--radius-xs);
-	font-size: 20px;
 	font-weight: 500;
 	border: none;
 }
@@ -74,7 +74,6 @@ li {
 .tag {
 	display: inline-block;
 	border-radius: var(--radius-xs);
-	font-size: 20px;
 	background: var(--accent-white);
 	font-weight: 500;
 	padding: 10px 20px 10px 20px;
@@ -83,4 +82,13 @@ li {
 .white-card {
 	display: flex;
 	flex-direction: column;
+}
+
+.input {
+  border-radius: var(--radius-xs);
+  border: none;
+}
+
+.input::placeholder {
+  color: #969696;
 }

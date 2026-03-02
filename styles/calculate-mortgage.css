@@ -1,0 +1,61 @@
+.calculate-mortgage {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.calculate-mortgage__container {
+	display: flex;
+	gap: 21px;
+}
+.calculate-mortgage__heading {
+	line-height: 1em;
+}
+.calculate-mortgage__subheading {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	max-width: 588px;
+}
+.calculate-mortgage__form {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+	max-width: 640px;
+	gap: 20px;
+}
+
+.calculate-mortgage__field {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.calculate-mortgage__input {
+	background: var(--primary-white);
+	border: none;
+	padding: 23px;
+}
+
+.calculate-mortgage__field_columns {
+	grid-column: 1/2 span;
+}
+
+.calculate-mortgage__submit-form {
+	grid-row: 4;
+	grid-column: 1/2 span;
+	padding: 23px 0;
+	margin-bottom: 20px;
+}
+
+.calculate-mortgage__description {
+	margin-top: 10px;
+	margin-bottom: 42px;
+}
+
+.calculate-mortgage__policy a {
+	text-decoration: underline;
+}
+
+.calculate-mortgage__right-heading {
+	font-size: 32px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	max-height: 38px;
+}
