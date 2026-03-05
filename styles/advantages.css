@@ -1,6 +1,7 @@
 .advantages {
   padding-top: 80px;
   margin-bottom: 80px;
+  position: relative;
 }
 .advantages__list {
   display: flex;
@@ -31,6 +32,15 @@
   margin-top: 40px;
 }
 
+.advantages__button {
+  border: none;
+  border-radius: var(--radius-xs);
+  padding: 12px;
+  max-height: 60px;
+  position: absolute;
+  right: -120px;
+  bottom: 6px;
+}
 
 
 .advantages__list-description {
